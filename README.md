@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">✨ Creating bugs since 2002<br>📚 I'm currently learning AI and Machine Learning<br>🎯 Goals: Develop a startup platform<br>🌏 Web: <a href="https://codehub-sxx7.onrender.com/">codehub.dev</a><br>😂 Old Blog: <a href="https://bondeth-blog.vercel.app/">bondeth.dev</a>🌟 Fun fact: I love js stack</p>
+<p align="left">✨ Creating bugs since 2002<br>📚 I'm currently learning AI and Machine Learning<br>🎯 Goals: Develop a startup platform<br>🌏 Web: <a href="https://codehub-sxx7.onrender.com/">codehub.dev</a><br>😂 Old Blog: <a href="https://bondeth-blog.vercel.app/">bondeth.dev</a><br>🌟 Fun fact: I love js stack</p>
 
 ###
 
