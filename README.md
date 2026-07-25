@@ -31,17 +31,27 @@ pipelines. Currently a Software Engineer at the **Digital Economy and Business C
 ### 🧰 Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,vuejs,nuxtjs,tailwind,py,nodejs,nestjs,fastapi,graphql,postgres,mongodb,redis,flutter,swift,kotlin,docker,nginx,githubactions,aws,gcp,cloudflare,vercel,netlify,git,linux&perline=9" alt="Tech stack" />
+  <img width="100%" src="https://skillicons.dev/icons?i=ts,react,nextjs,vuejs,nuxtjs,tailwind,py,nodejs,nestjs,fastapi,graphql,postgres,mongodb,redis,flutter,swift,kotlin,docker,nginx,githubactions,aws,gcp,cloudflare,vercel,netlify,git,linux&perline=14" alt="Tech stack" />
+</p>
+
+### 🤖 AI &amp; ML
+
+<p align="center">
+  <img height="46" alt="Anthropic" src="https://cdn.simpleicons.org/anthropic/D97757" />&nbsp;&nbsp;
+  <img height="46" alt="Google Gemini" src="https://cdn.simpleicons.org/googlegemini/8E75B2" />&nbsp;&nbsp;
+  <img height="46" alt="LangChain" src="https://cdn.simpleicons.org/langchain/10B981" />&nbsp;&nbsp;
+  <img height="46" alt="LangGraph" src="https://cdn.simpleicons.org/langgraph/26A69A" />&nbsp;&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/ollama/FFFFFF" />
+    <img height="46" alt="Ollama" src="https://cdn.simpleicons.org/ollama/111111" />
+  </picture>&nbsp;&nbsp;
+  <img height="46" alt="Hugging Face" src="https://cdn.simpleicons.org/huggingface/FFD21E" />
 </p>
 
 ### 📊 GitHub
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=RithyBondeth&hide_border=true&background=0A0A0A&stroke=1c1c1c&ring=2dd4bf&fire=2dd4bf&currStreakLabel=ffffff&sideLabels=9a9a9a&dates=6b6b6b&currStreakNum=ffffff&sideNums=ffffff" height="165" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RithyBondeth&hide_border=true&bg_color=0A0A0A&color=ffffff&line=2dd4bf&point=ffffff&area=true&area_color=2dd4bf&title_color=ffffff" width="94%" alt="Contribution graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RithyBondeth&hide_border=true&bg_color=0A0A0A&color=ffffff&line=2dd4bf&point=ffffff&area=true&area_color=2dd4bf&title_color=ffffff" width="100%" alt="Contribution graph" />
 </p>
 
 <p align="center"><em>Building things that just work — beautifully.</em></p>
