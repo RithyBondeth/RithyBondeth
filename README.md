@@ -1,86 +1,46 @@
-<h1 align="left">Hey 👋 What's up?</h1>
+<!--
+  GitHub PROFILE README for @RithyBondeth
+  Put THIS file + header.svg in a repo named exactly: RithyBondeth/RithyBondeth
+  (a repo whose name == your username renders on your profile page).
+  The relative ./header.svg path animates because GitHub serves the raw SVG.
+-->
 
-###
+<p align="center">
+  <img src="./header.svg" alt="Rithy Bondeth — Full Stack Developer & AI Engineer" width="100%" />
+</p>
 
-<p align="left">Hi, I'm Bondeth. A passionate full stack developer from Cambodia 🇰🇭</p>
+<p align="center">
+  <a href="https://bondeth-professional-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/rithy-bondeth-484073282/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://telegram.me/RithyBondeth"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
+  <a href="mailto:rithybondeth999@gmail.com"><img src="https://img.shields.io/badge/Email-D97757?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
-###
+---
 
-<h2 align="left">About me</h2>
+### 👋 About
 
-###
+Full Stack Developer & AI Engineer based in **Phnom Penh, Cambodia**. I build elegant web
+applications and intelligent AI systems — from pixel-perfect UIs to production-ready ML
+pipelines. Currently a Software Engineer at the **Digital Economy and Business Committee**
+(Ministry of Economy and Finance of Cambodia).
 
-<p align="left">✨ Working as a full stack devevloper at DEBC<br>📚 I'm currently learning AI and Machine Learning<br>🎯 Goals: Develop a startup platform<br>🌏 Web: <a href="https://codehub-sxx7.onrender.com/">codehub.dev</a><br>😂 Old Blog: <a href="https://bondeth-blog.vercel.app/">bondeth.dev</a><br>🌟 Fun fact: I love js stack</p>
+> I believe the best technology is invisible — it just works, and works beautifully.
 
-###
+### 🧰 Stack
 
-<h2 align="left">Tech Stack</h2>
+**Frontend** &nbsp;·&nbsp; TypeScript · React · Next.js · Vue · Nuxt · Tailwind CSS
+**Backend** &nbsp;·&nbsp; Python · Node.js · NestJS · FastAPI · GraphQL
+**AI / ML** &nbsp;·&nbsp; OpenAI · Anthropic · Gemini · LangChain · LangGraph · Ollama · Hugging Face
+**Data** &nbsp;·&nbsp; PostgreSQL · MongoDB · Redis
+**Mobile** &nbsp;·&nbsp; Flutter · Swift · Kotlin
+**Cloud & DevOps** &nbsp;·&nbsp; Vercel · AWS · GCP · Cloudflare · Docker · Nginx · GitHub Actions
 
-###
+### 📊 GitHub
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="40" alt="dart logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="40" alt="vuejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg" height="40" alt="nuxtjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" height="40" alt="nestjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="40" alt="redis logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" alt="flutter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" height="40" alt="swift logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=mongodb" height="40" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="40" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="sqlite logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=kubernetes" height="40" alt="kubernetes logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=jenkins" height="40" alt="jenkins logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" height="40" alt="terraform logo"  />
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=RithyBondeth&show_icons=true&hide_border=true&theme=dark&bg_color=0A0A0A&title_color=ffffff&icon_color=2dd4bf&text_color=9a9a9a" height="165" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RithyBondeth&layout=compact&hide_border=true&theme=dark&bg_color=0A0A0A&title_color=ffffff&text_color=9a9a9a" height="165" alt="top langs" />
+</p>
 
-###
-
-<h2 align="left">Stay Connected</h2>
-
-###
-
-<div align="left">
-  <a href="https://www.linkedin.com/in/rithy-bondeth-484073282/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-  <a href="https://www.instagram.com/rithybondeth/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
-  </a>
-  <a href="https://www.facebook.com/profile.php?id=100094498908703" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="52" height="40" alt="facebook logo"  />
-  </a>
-  <a href="https://telegram.me/RithyBondeth" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="52" height="40" alt="telegram logo"  />
-  </a>
-</div>
-
-###
+<p align="center"><em>Building things that just work — beautifully.</em></p>

@@ -1,0 +1,313 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" fill="none" role="img" aria-label="Rithy Bondeth — Full Stack Developer and AI Engineer">
+  <defs>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#8a8a8a"/>
+    </linearGradient>
+    <linearGradient id="roleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8e8e8"/>
+      <stop offset="1" stop-color="#9a9a9a"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="au1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="au2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="au3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e879f9" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#e879f9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.05"/>
+    </pattern>
+    <clipPath id="card"><rect x="1" y="1" width="898" height="318" rx="20"/></clipPath>
+    <clipPath id="nameClip"><text x="60" y="120" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="52" font-weight="800">Rithy Bondeth</text></clipPath>
+    <clipPath id="marqueeClip"><rect x="30" y="248" width="840" height="40" rx="8"/></clipPath>
+  </defs>
+
+  <!-- card -->
+  <rect x="1" y="1" width="898" height="318" rx="20" fill="#0A0A0A" stroke="#1c1c1c" stroke-width="1.5"/>
+
+  <g clip-path="url(#card)">
+    <!-- aurora -->
+    <g filter="blur(48px)" opacity="0.9">
+      <circle r="150" fill="url(#au1)" cx="180" cy="120">
+        <animate attributeName="cx" values="150;340;180;150" dur="16s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="90;180;60;90" dur="16s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="170" fill="url(#au2)" cx="640" cy="80">
+        <animate attributeName="cx" values="700;520;760;700" dur="19s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="60;200;120;60" dur="19s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="150" fill="url(#au3)" cx="820" cy="260">
+        <animate attributeName="cx" values="820;660;860;820" dur="21s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="240;300;220;240" dur="21s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <rect x="0" y="0" width="900" height="320" fill="url(#dots)"/>
+
+    <!-- window chrome -->
+    <g transform="translate(28,28)">
+      <circle cx="0" cy="0" r="6" fill="#ff5f57"/>
+      <circle cx="20" cy="0" r="6" fill="#febc2e"/>
+      <circle cx="40" cy="0" r="6" fill="#28c840"/>
+      <text x="66" y="4.5" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#5a5a5a">~/rithy-bondeth — zsh</text>
+    </g>
+
+    <!-- prompt line -->
+    <text x="60" y="72" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="15" fill="#6b6b6b">
+      <tspan fill="#2dd4bf">➜</tspan> <tspan fill="#9a9a9a">~</tspan> <tspan fill="#6b6b6b">whoami</tspan>
+    </text>
+
+    <!-- name -->
+    <text x="60" y="120" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="52" font-weight="800" fill="url(#nameGrad)">Rithy Bondeth</text>
+    <g clip-path="url(#nameClip)">
+      <rect x="-260" y="70" width="220" height="70" fill="url(#sheen)" transform="skewX(-18)">
+        <animate attributeName="x" values="-260;900" dur="4.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- role typewriter -->
+    
+    <clipPath id="rc0"><rect id="rcr0" x="60" y="155" width="0" height="37">
+      <animate attributeName="width" values="0;0;312;312;0;0" keyTimes="0;0.000;0.117;0.283;0.333;1" dur="12s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <g clip-path="url(#rc0)">
+      <text x="60" y="182" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="27" font-weight="500" fill="url(#roleGrad)">Full Stack Developer
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.000;0.117;0.283;0.333;1" dur="12s" repeatCount="indefinite"/>
+      </text>
+    </g>
+    <clipPath id="rc1"><rect id="rcr1" x="60" y="155" width="0" height="37">
+      <animate attributeName="width" values="0;0;172;172;0;0" keyTimes="0;0.333;0.450;0.617;0.667;1" dur="12s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <g clip-path="url(#rc1)">
+      <text x="60" y="182" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="27" font-weight="500" fill="url(#roleGrad)">AI Engineer
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.333;0.450;0.617;0.667;1" dur="12s" repeatCount="indefinite"/>
+      </text>
+    </g>
+    <clipPath id="rc2"><rect id="rcr2" x="60" y="155" width="0" height="37">
+      <animate attributeName="width" values="0;0;265;265;0;0" keyTimes="0;0.667;0.783;0.950;1.000;1" dur="12s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <g clip-path="url(#rc2)">
+      <text x="60" y="182" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="27" font-weight="500" fill="url(#roleGrad)">Next.js Craftsman
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.667;0.783;0.950;1.000;1" dur="12s" repeatCount="indefinite"/>
+      </text>
+    </g>
+    <rect id="caret" y="159" width="3" height="27" fill="#2dd4bf">
+      <animate attributeName="x" values="60;60;372;372;60;232;232;60;325;325;60" keyTimes="0;0.000;0.117;0.283;0.333;0.450;0.617;0.667;0.783;0.950;1" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- location + tagline -->
+    <text x="60" y="222" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#7d7d7d">
+      <tspan fill="#e879f9">◈</tspan>  Phnom Penh, Cambodia  <tspan fill="#3a3a3a">•</tspan>  building things that just work, beautifully
+    </text>
+
+    <!-- tech marquee -->
+    <g clip-path="url(#marqueeClip)">
+      <g transform="translate(30,253)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" from="0,0" to="-2070,0" dur="26s" repeatCount="indefinite"/>
+          <g>
+    <g transform="translate(0.0,0)">
+      <rect width="127" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#3178C6"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">TypeScript</text>
+    </g>
+    <g transform="translate(141.0,0)">
+      <rect width="87" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#61DAFB"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">React</text>
+    </g>
+    <g transform="translate(242.0,0)">
+      <rect width="103" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#FFFFFF"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">Next.js</text>
+    </g>
+    <g transform="translate(359.0,0)">
+      <rect width="95" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#4FC08D"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">Vue.js</text>
+    </g>
+    <g transform="translate(468.0,0)">
+      <rect width="95" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#3776AB"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">Python</text>
+    </g>
+    <g transform="translate(577.0,0)">
+      <rect width="95" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#E0234E"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">NestJS</text>
+    </g>
+    <g transform="translate(686.0,0)">
+      <rect width="103" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#009688"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">FastAPI</text>
+    </g>
+    <g transform="translate(803.0,0)">
+      <rect width="103" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#E10098"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">GraphQL</text>
+    </g>
+    <g transform="translate(920.0,0)">
+      <rect width="127" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#4169E1"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">PostgreSQL</text>
+    </g>
+    <g transform="translate(1061.0,0)">
+      <rect width="87" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#FF4438"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">Redis</text>
+    </g>
+    <g transform="translate(1162.0,0)">
+      <rect width="95" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#FFFFFF"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">OpenAI</text>
+    </g>
+    <g transform="translate(1271.0,0)">
+      <rect width="119" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#D97757"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">Anthropic</text>
+    </g>
+    <g transform="translate(1404.0,0)">
+      <rect width="119" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#10B981"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">LangChain</text>
+    </g>
+    <g transform="translate(1537.0,0)">
+      <rect width="103" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#54C5F8"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">Flutter</text>
+    </g>
+    <g transform="translate(1654.0,0)">
+      <rect width="95" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#2496ED"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">Docker</text>
+    </g>
+    <g transform="translate(1763.0,0)">
+      <rect width="70" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#FF9900"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">AWS</text>
+    </g>
+    <g transform="translate(1847.0,0)">
+      <rect width="70" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#4285F4"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">GCP</text>
+    </g>
+    <g transform="translate(1931.0,0)">
+      <rect width="111" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#06B6D4"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">Tailwind</text>
+    </g></g>
+          <g transform="translate(2070,0)">
+    <g transform="translate(0.0,0)">
+      <rect width="127" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#3178C6"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">TypeScript</text>
+    </g>
+    <g transform="translate(141.0,0)">
+      <rect width="87" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#61DAFB"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">React</text>
+    </g>
+    <g transform="translate(242.0,0)">
+      <rect width="103" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#FFFFFF"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">Next.js</text>
+    </g>
+    <g transform="translate(359.0,0)">
+      <rect width="95" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#4FC08D"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">Vue.js</text>
+    </g>
+    <g transform="translate(468.0,0)">
+      <rect width="95" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#3776AB"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">Python</text>
+    </g>
+    <g transform="translate(577.0,0)">
+      <rect width="95" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#E0234E"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">NestJS</text>
+    </g>
+    <g transform="translate(686.0,0)">
+      <rect width="103" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#009688"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">FastAPI</text>
+    </g>
+    <g transform="translate(803.0,0)">
+      <rect width="103" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#E10098"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">GraphQL</text>
+    </g>
+    <g transform="translate(920.0,0)">
+      <rect width="127" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#4169E1"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">PostgreSQL</text>
+    </g>
+    <g transform="translate(1061.0,0)">
+      <rect width="87" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#FF4438"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">Redis</text>
+    </g>
+    <g transform="translate(1162.0,0)">
+      <rect width="95" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#FFFFFF"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">OpenAI</text>
+    </g>
+    <g transform="translate(1271.0,0)">
+      <rect width="119" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#D97757"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">Anthropic</text>
+    </g>
+    <g transform="translate(1404.0,0)">
+      <rect width="119" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#10B981"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">LangChain</text>
+    </g>
+    <g transform="translate(1537.0,0)">
+      <rect width="103" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#54C5F8"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">Flutter</text>
+    </g>
+    <g transform="translate(1654.0,0)">
+      <rect width="95" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#2496ED"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">Docker</text>
+    </g>
+    <g transform="translate(1763.0,0)">
+      <rect width="70" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#FF9900"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">AWS</text>
+    </g>
+    <g transform="translate(1847.0,0)">
+      <rect width="70" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#4285F4"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">GCP</text>
+    </g>
+    <g transform="translate(1931.0,0)">
+      <rect width="111" height="30" rx="15" fill="#141414" stroke="#262626"/>
+      <circle cx="19" cy="15" r="3" fill="#06B6D4"/>
+      <text x="30" y="19.9" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,monospace" font-size="14" fill="#c9c9c9">Tailwind</text>
+    </g></g>
+        </g>
+      </g>
+      <rect x="30" y="248" width="60" height="40" fill="url(#fadeL)"/>
+      <rect x="810" y="248" width="60" height="40" fill="url(#fadeR)"/>
+    </g>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0A0A0A"/><stop offset="1" stop-color="#0A0A0A" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0A0A0A" stop-opacity="0"/><stop offset="1" stop-color="#0A0A0A"/>
+    </linearGradient>
+  </g>
+</svg>
