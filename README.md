@@ -28,24 +28,26 @@ pipelines. Currently a Software Engineer at the **Digital Economy and Business C
 
 > I believe the best technology is invisible — it just works, and works beautifully.
 
-### 🧰 Stack
+### 🧰 Tech Stack
 
 <p align="center">
-  <img width="100%" src="https://skillicons.dev/icons?i=ts,react,nextjs,vuejs,nuxtjs,tailwind,py,nodejs,nestjs,fastapi,graphql,postgres,mongodb,redis,flutter,swift,kotlin,docker,nginx,githubactions,aws,gcp,cloudflare,vercel,netlify,git,linux&perline=14" alt="Tech stack" />
+  <img width="100%" src="https://skillicons.dev/icons?i=ts,react,nextjs,vuejs,nuxtjs,tailwind,cpp,py,nodejs,nestjs,fastapi,graphql,postgres,mongodb,redis,firebase,supabase,flutter,swift,kotlin,tensorflow,docker,kubernetes,nginx,jenkins,terraform,githubactions,gcp,vercel,netlify,git,linux&perline=16" alt="Tech stack" />
 </p>
 
-### 🤖 AI &amp; ML
-
 <p align="center">
-  <img height="46" alt="Anthropic" src="https://cdn.simpleicons.org/anthropic/D97757" />&nbsp;&nbsp;
-  <img height="46" alt="Google Gemini" src="https://cdn.simpleicons.org/googlegemini/8E75B2" />&nbsp;&nbsp;
-  <img height="46" alt="LangChain" src="https://cdn.simpleicons.org/langchain/10B981" />&nbsp;&nbsp;
-  <img height="46" alt="LangGraph" src="https://cdn.simpleicons.org/langgraph/26A69A" />&nbsp;&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./openai-light.svg" />
+    <img height="44" alt="OpenAI" src="./openai-dark.svg" />
+  </picture>&nbsp;&nbsp;
+  <img height="44" alt="Anthropic" src="https://cdn.simpleicons.org/anthropic/D97757" />&nbsp;&nbsp;
+  <img height="44" alt="Google Gemini" src="https://cdn.simpleicons.org/googlegemini/8E75B2" />&nbsp;&nbsp;
+  <img height="44" alt="LangChain" src="https://cdn.simpleicons.org/langchain/10B981" />&nbsp;&nbsp;
+  <img height="44" alt="LangGraph" src="https://cdn.simpleicons.org/langgraph/26A69A" />&nbsp;&nbsp;
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/ollama/FFFFFF" />
-    <img height="46" alt="Ollama" src="https://cdn.simpleicons.org/ollama/111111" />
+    <img height="44" alt="Ollama" src="https://cdn.simpleicons.org/ollama/111111" />
   </picture>&nbsp;&nbsp;
-  <img height="46" alt="Hugging Face" src="https://cdn.simpleicons.org/huggingface/FFD21E" />
+  <img height="44" alt="Hugging Face" src="https://cdn.simpleicons.org/huggingface/FFD21E" />
 </p>
 
 ### 📊 GitHub
